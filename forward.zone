@@ -1,0 +1,14 @@
+$TTL 1D
+@       IN SOA  idc.ril.com. root.idc.ril.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN NS   idc.ril.com.
+idc.ril.com.      IN         A    10.66.26.30
+www     IN         A    10.66.26.30
+rancid  IN      A       10.128.3.15
+IDCDNS1 IN      A       10.128.3.26
+ntp     IN      A       10.128.3.21
+ntp     IN      A       10.128.3.22
